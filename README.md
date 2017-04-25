@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-xbee-api/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-xbee-api/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-xbee-api/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-xbee-api/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xbee-api/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xbee-api/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-xbee-api/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-xbee-api/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xbee-api/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xbee-api/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-xbee-api/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-xbee-api/build/coverage.html/index.html)
 
@@ -35,43 +35,56 @@
 ```json
 
 {
-    "name": "xbee-api",
-    "description": "Node.js and Chrome communicate with XBee/ZigBee devices in API mode",
-    "version": "0.5.2",
-    "homepage": "https://github.com/jankolkmeier/xbee-api",
     "author": {
         "name": "Jan Kolkmeier",
         "url": "http://kolkmeier.com"
     },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/jankolkmeier/xbee-api.git"
-    },
     "bugs": {
         "url": "https://github.com/jankolkmeier/xbee-api/issues"
     },
-    "licenses": "MIT",
-    "main": "lib/xbee-api",
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "scripts": {
-        "test": "grunt nodeunit"
-    },
-    "devDependencies": {
-        "serialport": "~4.0.0",
-        "grunt-contrib-jshint": "~1.0.0",
-        "grunt-contrib-nodeunit": "~1.0.0",
-        "grunt-contrib-watch": "~1.0.0",
-        "grunt-browserify": "~5.0.0",
-        "grunt": "~1.0.1"
-    },
-    "keywords": [],
     "dependencies": {
         "buffer-builder": "^0.2.0",
         "buffer-reader": "https://github.com/prodatakey/node-buffer-reader/archive/v0.0.3.tar.gz",
         "safe-buffer": "~5.0.1"
-    }
+    },
+    "description": "Node.js and Chrome communicate with XBee/ZigBee devices in API mode",
+    "devDependencies": {
+        "grunt": "~1.0.1",
+        "grunt-browserify": "~5.0.0",
+        "grunt-contrib-jshint": "~1.0.0",
+        "grunt-contrib-nodeunit": "~1.0.0",
+        "grunt-contrib-watch": "~1.0.0",
+        "serialport": "~4.0.0"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "f5bdc8d1d84cf3450b35707743e4612178bc849a",
+        "tarball": "https://registry.npmjs.org/xbee-api/-/xbee-api-0.5.2.tgz"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "gitHead": "2f440f6e097a88be55dd7fd42ebc54dcf2814378",
+    "homepage": "https://github.com/jankolkmeier/xbee-api",
+    "keywords": [],
+    "licenses": "MIT",
+    "main": "lib/xbee-api",
+    "maintainers": [
+        {
+            "name": "jouz"
+        }
+    ],
+    "name": "xbee-api",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jankolkmeier/xbee-api.git"
+    },
+    "scripts": {
+        "test": "grunt nodeunit"
+    },
+    "version": "0.5.2",
+    "bin": {}
 }
 ```
 
